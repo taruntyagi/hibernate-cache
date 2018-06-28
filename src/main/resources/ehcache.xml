@@ -1,0 +1,18 @@
+<?xml version="1.0"?>  
+
+<ehcache>  
+<defaultCache   
+maxElementsInMemory="100"   
+eternal="false"   
+timeToIdleSeconds="120"   
+timeToLiveSeconds="200" /> 
+
+<cache
+    name="com.tarun.hibernate.cache.dao.ApplicationAttributes"
+    maxElementsInMemory="10000"
+    eternal="false"
+    timeToIdleSeconds="300"
+    timeToLiveSeconds="600"
+/>
+
+</ehcache>
